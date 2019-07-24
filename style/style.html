@@ -8,12 +8,14 @@
 <body>
     <p>Size (0 - 400px):</p>
     <input type="range" min="0" max="400" value="100" class="slider" id="sizeSlider" oninput="updateSize(this.value)">
-    <p>X (0 - 400px):</p>
-    <input type="range" min="0" max="400" value="0" class="slider" id="xSlider" oninput="updateLeftPosition(this.value)">
-    <p>Y (0 - 400px):</p>
-    <input type="range" min="0" max="400" value="0" class="slider" id="ySlider" oninput="updateTopPosition(this.value)">
+    <p>X (0 - 360px):</p>
+    <input type="range" min="0" max="360" value="0" class="slider" id="xSlider" oninput="updateLeftPosition(this.value)">
+    <p>Y (0 - 360px):</p>
+    <input type="range" min="0" max="360" value="0" class="slider" id="ySlider" oninput="updateTopPosition(this.value)">
+    <p>Z (0 - 360px):</p>
+    <input type="range" min="0" max="360" value="0" class="slider" id="zSlider" oninput="updateDownPosition(this.value)">
 
-    <img src="./shira.png" id="logo" width="100px">
+    <img src="https://heavyeditorial.files.wordpress.com/2015/02/club_penguinhack2.jpg?quality=65&strip=all&w=780&h=468" id="logo" width="100px">
 
     <!-- PLEASE DO NOT ADD ANY JAVASCRIPT CODE HERE! :) -->
     <script src="jquery.js"></script>
